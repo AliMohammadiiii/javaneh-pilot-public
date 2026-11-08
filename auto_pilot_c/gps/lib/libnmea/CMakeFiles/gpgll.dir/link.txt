@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgpgll.a CMakeFiles/gpgll.dir/src/parsers/gpgll.c.o CMakeFiles/gpgll.dir/src/parsers/parse.c.o
+/usr/bin/ranlib lib/libgpgll.a

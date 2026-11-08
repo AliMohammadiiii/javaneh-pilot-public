@@ -1,0 +1,59 @@
+Light:
+    type: branch
+    description: Lights of truck.
+
+Light.Head:
+    type: actuator
+    datatype: int8
+    description: Set Head Light in Night Light function. 
+
+Light.High:
+    type: actuator
+    datatype: int8
+    description: Set High Light in Night Light function. 
+
+
+Light.Tail:
+    type: actuator
+    datatype: int8
+    description: Set Tail Light. 
+
+Light.Brake:
+    type: actuator
+    datatype: int8
+    description: Set Brake Light. 
+
+Light.Turn:
+    type: actuator
+    datatype: int8
+    description: Set Turn Light. 
+
+Light.Park:
+    type: actuator
+    datatype: int8
+    description: Set Park Light. 
+
+
+Light.Side:
+    type: actuator
+    datatype: int8
+    description: Set Side Light. 
+
+Light.Fog:
+    type: actuator
+    datatype: int8
+    description: Set Fog Light. 
+
+Equipment:
+    type: branch
+    description: Equipments of truck.
+
+Equipment.Horn:
+    type: actuator
+    datatype: int8
+    description: Set Horn Equipment.
+
+Equipment.Buzz:
+    type: actuator
+    datatype: int8
+    description: Set Buzz Equipment.

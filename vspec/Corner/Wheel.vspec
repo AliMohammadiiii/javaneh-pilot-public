@@ -1,0 +1,19 @@
+TireRotation:
+  datatype: int16
+  type: sensor
+  unit: rpm
+  description: Rotation speed of tire.
+
+TirePressure:
+  datatype: int16
+  arraysize: 2
+  type: sensor
+  unit: mbar
+  description: Pressure of tire.
+
+TireTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of tire.
+

@@ -1,0 +1,5 @@
+DriveTemperature:
+  datatype: uint16
+  type: sensor
+  unit: celsius
+  description: Temperature of Drive.

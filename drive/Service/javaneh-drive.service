@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Javaneh drive Script
+ 
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/opt/tiro/drive_run.py
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target
+Alias=javaneh-drive.service

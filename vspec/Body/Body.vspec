@@ -1,0 +1,38 @@
+# Box:
+#     type: branch
+#     description: All data about Box system.
+# #include Box.vspec Box
+
+# Close:
+#     type: branch
+#     description: All data about Close system.
+# #include Close.vspec Close
+
+# Door:
+#     type: branch
+#     description: All data about Door system.
+# #include Door.vspec Door
+
+# Fix:
+#     type: branch
+#     description: All data about Fix system.
+# #include Fix.vspec Fix
+
+Head:
+    type: branch
+    instances:
+    - ["YP","YN"]
+    - ["XP","XN"]
+    description: All data about Head system.
+#include Head.vspec Head
+
+Load:
+    type: branch
+    description: All data about Load system.
+#include Load.vspec Load
+
+# Rail:
+#     type: branch
+#     description: All data about Rail system.
+# #include Rail.vspec Rail
+

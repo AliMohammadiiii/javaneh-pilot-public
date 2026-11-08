@@ -1,0 +1,15 @@
+Surround:
+    type: branch
+    description: It obtains information about its surroundings
+#include Surround.vspec Surround
+
+RemoteController:
+    type: branch
+    description: It obtains information about its RemoteController
+#include RemoteController.vspec RemoteController
+
+FrontSide:
+    type: sensor
+    datatype: int16
+    description: 0 for XP and 1 for XN, 2 for break.
+

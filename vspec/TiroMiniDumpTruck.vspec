@@ -1,0 +1,42 @@
+Vehicle:
+    type: branch
+    description: High-level truck data.
+
+Vehicle.Body:
+    type: branch
+    description: All data about Body such as Load, Box, etc.
+#include Body/Body.vspec Vehicle.Body
+
+Vehicle.Corner:
+    type: branch
+    instances:
+    - ["YP","YN"]
+    - ["XP","XN"]
+    description: All data about Corner such as Motor, Wheel, etc.
+#include Corner/Corner.vspec Vehicle.Corner
+
+Vehicle.Energy:
+    type: branch
+    description: All data about Energy such as Hydrolic, Battrey, etc.
+#include Energy/Energy.vspec Vehicle.Energy
+
+Vehicle.Frame:
+    type: branch
+    description: All data about Frame such as Chassis, Lid, etc.
+#include Frame/Frame.vspec Vehicle.Frame
+
+Vehicle.Hardware:
+    type: branch
+    description: All data about Hardware such as Leader, Follower, etc.
+#include Hardware/Hardware.vspec Vehicle.Hardware
+
+
+Vehicle.Software:
+    type: branch
+    description: All data about Software such as Leader, Follower, etc.
+#include Software/Software.vspec Vehicle.Software
+
+# Vehicle.Utility:
+#     type: branch
+#     description: All data about Utility such as Seat, Climate, etc.
+# #include Utility/Utility.vspec Vehicle.Utility

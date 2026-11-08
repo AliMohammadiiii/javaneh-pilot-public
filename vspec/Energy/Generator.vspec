@@ -1,0 +1,61 @@
+EngineOilPressure:
+  datatype: int16
+  type: sensor
+  unit: mbar
+  description: Pressure of Engine Oil.
+
+
+EngineOilTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of Engine Oil.
+
+EngineRotation:
+  datatype: uint16
+  type: sensor
+  unit: rpm
+  description: Rotation speed of Engine.
+
+BattreyVoltage:
+  datatype: uint16
+  type: sensor
+  unit: V
+  description: Voltage of generator battrey.
+
+
+DisselTankLocation:
+  datatype: uint16
+  type: sensor
+  unit: mm
+  description: Location of dissel tank.
+
+DisselTankTemp:
+  datatype: uint16
+  type: sensor
+  unit: celsius
+  description: temperture of dissel tank.
+
+
+
+OutputVoltage:
+  datatype: uint16
+  type: sensor
+  unit: V
+  description: Voltage of output.
+
+OutputCurrent:
+  datatype: uint16
+  type: sensor
+  unit: A
+  description: Current of output.
+
+StartMotor:
+  datatype: int8
+  type: actuator
+  description: StartMotor.
+
+EngineEquipment:
+  datatype: int8
+  type: actuator
+  description: EngineEquipment.

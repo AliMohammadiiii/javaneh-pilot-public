@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Javaneh Pantilt Script
+ 
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/opt/tiro/pantilt_run.py
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target
+Alias=javaneh-pantilt.service

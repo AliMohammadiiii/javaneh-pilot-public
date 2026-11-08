@@ -1,0 +1,32 @@
+BrakeOilPressure:
+  datatype: int16
+  type: sensor
+  unit: mbar
+  instantiate: false
+  description: Pressure of oil pump for brake.
+
+CaliperTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of brake caliper.
+
+PadButton:
+  datatype: int8
+  type: sensor
+  description: Sensing the presence of brake pads.
+
+BrakeValve:
+  datatype: int8
+  type: actuator
+  description: Set brake Valve in Strong Brake function.
+
+ReleaseValve:
+  datatype: int8
+  type: actuator
+  description: Set ReleaseValve in Anti-lock Brake function.
+
+ParkValve:
+  datatype: int8
+  type: actuator
+  description: Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.

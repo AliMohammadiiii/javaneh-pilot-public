@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgpvtg.a CMakeFiles/gpvtg.dir/src/parsers/gpvtg.c.o CMakeFiles/gpvtg.dir/src/parsers/parse.c.o
+/usr/bin/ranlib lib/libgpvtg.a

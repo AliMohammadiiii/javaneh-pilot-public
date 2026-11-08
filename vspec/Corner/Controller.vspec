@@ -1,0 +1,66 @@
+OutputVoltage:
+  datatype: int16
+  type: sensor
+  unit: V
+  description: Voltage of output.
+
+OutputCurrent:
+  datatype: int16
+  type: sensor
+  unit: A
+  description: Current of output.
+
+InputVoltage:
+  datatype: int16
+  type: sensor
+  unit: V
+  description: voltage of input.
+
+InputCurrent:
+  datatype: int16
+  type: sensor
+  unit: A
+  description: Current of input.
+
+ContTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of Controller cont.
+
+CoolTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of Controller cool.
+
+
+DriveCommand:
+  datatype: int8
+  type: actuator
+  description: Command of Drive.
+
+AcceCommand:
+  datatype: uint16
+  type: actuator
+  description: Command of Acceleration.
+
+ReveCommand:
+  datatype: int8
+  type: actuator
+  description: Command of Reverse.
+
+BrakeCommand:
+  datatype: uint16
+  type: actuator
+  description: Command of Brake.
+
+NaviCommand:
+  datatype: uint16
+  type: actuator
+  description: Command of Navigation.
+
+ParkCommand:
+  datatype: uint16
+  type: actuator
+  description: Command of Park.

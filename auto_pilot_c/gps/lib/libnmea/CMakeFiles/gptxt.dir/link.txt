@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgptxt.a CMakeFiles/gptxt.dir/src/parsers/gptxt.c.o CMakeFiles/gptxt.dir/src/parsers/parse.c.o
+/usr/bin/ranlib lib/libgptxt.a

@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/minimum.dir/examples/minimum.c.o -o bin/minimum  lib/libnmea.a -ldl 

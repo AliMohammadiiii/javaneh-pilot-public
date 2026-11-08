@@ -1,0 +1,2728 @@
+{
+  "Vehicle": {
+    "children": {
+      "Body": {
+        "children": {
+          "Head": {
+            "children": {
+              "YN": {
+                "children": {
+                  "XN": {
+                    "children": {
+                      "Equipment": {
+                        "children": {
+                          "Buzz": {
+                            "datatype": "int8",
+                            "description": "Set Buzz Equipment.",
+                            "type": "actuator"
+                          },
+                          "Horn": {
+                            "datatype": "int8",
+                            "description": "Set Horn Equipment.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Equipments of truck.",
+                        "type": "branch"
+                      },
+                      "Light": {
+                        "children": {
+                          "Brake": {
+                            "datatype": "int8",
+                            "description": "Set Brake Light.",
+                            "type": "actuator"
+                          },
+                          "Fog": {
+                            "datatype": "int8",
+                            "description": "Set Fog Light.",
+                            "type": "actuator"
+                          },
+                          "Head": {
+                            "datatype": "int8",
+                            "description": "Set Head Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "High": {
+                            "datatype": "int8",
+                            "description": "Set High Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "Park": {
+                            "datatype": "int8",
+                            "description": "Set Park Light.",
+                            "type": "actuator"
+                          },
+                          "Side": {
+                            "datatype": "int8",
+                            "description": "Set Side Light.",
+                            "type": "actuator"
+                          },
+                          "Tail": {
+                            "datatype": "int8",
+                            "description": "Set Tail Light.",
+                            "type": "actuator"
+                          },
+                          "Turn": {
+                            "datatype": "int8",
+                            "description": "Set Turn Light.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Lights of truck.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Head system.",
+                    "type": "branch"
+                  },
+                  "XP": {
+                    "children": {
+                      "Equipment": {
+                        "children": {
+                          "Buzz": {
+                            "datatype": "int8",
+                            "description": "Set Buzz Equipment.",
+                            "type": "actuator"
+                          },
+                          "Horn": {
+                            "datatype": "int8",
+                            "description": "Set Horn Equipment.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Equipments of truck.",
+                        "type": "branch"
+                      },
+                      "Light": {
+                        "children": {
+                          "Brake": {
+                            "datatype": "int8",
+                            "description": "Set Brake Light.",
+                            "type": "actuator"
+                          },
+                          "Fog": {
+                            "datatype": "int8",
+                            "description": "Set Fog Light.",
+                            "type": "actuator"
+                          },
+                          "Head": {
+                            "datatype": "int8",
+                            "description": "Set Head Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "High": {
+                            "datatype": "int8",
+                            "description": "Set High Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "Park": {
+                            "datatype": "int8",
+                            "description": "Set Park Light.",
+                            "type": "actuator"
+                          },
+                          "Side": {
+                            "datatype": "int8",
+                            "description": "Set Side Light.",
+                            "type": "actuator"
+                          },
+                          "Tail": {
+                            "datatype": "int8",
+                            "description": "Set Tail Light.",
+                            "type": "actuator"
+                          },
+                          "Turn": {
+                            "datatype": "int8",
+                            "description": "Set Turn Light.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Lights of truck.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Head system.",
+                    "type": "branch"
+                  }
+                },
+                "description": "All data about Head system.",
+                "type": "branch"
+              },
+              "YP": {
+                "children": {
+                  "XN": {
+                    "children": {
+                      "Equipment": {
+                        "children": {
+                          "Buzz": {
+                            "datatype": "int8",
+                            "description": "Set Buzz Equipment.",
+                            "type": "actuator"
+                          },
+                          "Horn": {
+                            "datatype": "int8",
+                            "description": "Set Horn Equipment.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Equipments of truck.",
+                        "type": "branch"
+                      },
+                      "Light": {
+                        "children": {
+                          "Brake": {
+                            "datatype": "int8",
+                            "description": "Set Brake Light.",
+                            "type": "actuator"
+                          },
+                          "Fog": {
+                            "datatype": "int8",
+                            "description": "Set Fog Light.",
+                            "type": "actuator"
+                          },
+                          "Head": {
+                            "datatype": "int8",
+                            "description": "Set Head Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "High": {
+                            "datatype": "int8",
+                            "description": "Set High Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "Park": {
+                            "datatype": "int8",
+                            "description": "Set Park Light.",
+                            "type": "actuator"
+                          },
+                          "Side": {
+                            "datatype": "int8",
+                            "description": "Set Side Light.",
+                            "type": "actuator"
+                          },
+                          "Tail": {
+                            "datatype": "int8",
+                            "description": "Set Tail Light.",
+                            "type": "actuator"
+                          },
+                          "Turn": {
+                            "datatype": "int8",
+                            "description": "Set Turn Light.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Lights of truck.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Head system.",
+                    "type": "branch"
+                  },
+                  "XP": {
+                    "children": {
+                      "Equipment": {
+                        "children": {
+                          "Buzz": {
+                            "datatype": "int8",
+                            "description": "Set Buzz Equipment.",
+                            "type": "actuator"
+                          },
+                          "Horn": {
+                            "datatype": "int8",
+                            "description": "Set Horn Equipment.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Equipments of truck.",
+                        "type": "branch"
+                      },
+                      "Light": {
+                        "children": {
+                          "Brake": {
+                            "datatype": "int8",
+                            "description": "Set Brake Light.",
+                            "type": "actuator"
+                          },
+                          "Fog": {
+                            "datatype": "int8",
+                            "description": "Set Fog Light.",
+                            "type": "actuator"
+                          },
+                          "Head": {
+                            "datatype": "int8",
+                            "description": "Set Head Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "High": {
+                            "datatype": "int8",
+                            "description": "Set High Light in Night Light function.",
+                            "type": "actuator"
+                          },
+                          "Park": {
+                            "datatype": "int8",
+                            "description": "Set Park Light.",
+                            "type": "actuator"
+                          },
+                          "Side": {
+                            "datatype": "int8",
+                            "description": "Set Side Light.",
+                            "type": "actuator"
+                          },
+                          "Tail": {
+                            "datatype": "int8",
+                            "description": "Set Tail Light.",
+                            "type": "actuator"
+                          },
+                          "Turn": {
+                            "datatype": "int8",
+                            "description": "Set Turn Light.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Lights of truck.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Head system.",
+                    "type": "branch"
+                  }
+                },
+                "description": "All data about Head system.",
+                "type": "branch"
+              }
+            },
+            "description": "All data about Head system.",
+            "type": "branch"
+          },
+          "Load": {
+            "children": {
+              "BucketAngle": {
+                "children": {
+                  "x": {
+                    "datatype": "int16",
+                    "description": "Angle of Bucket.",
+                    "type": "sensor",
+                    "unit": "degrees"
+                  },
+                  "y": {
+                    "datatype": "int16",
+                    "description": "Angle of Bucket.",
+                    "type": "sensor",
+                    "unit": "degrees"
+                  }
+                },
+                "description": "Angle of Bucket.",
+                "type": "branch"
+              },
+              "BucketWeight": {
+                "children": {
+                  "YN": {
+                    "children": {
+                      "XN": {
+                        "children": {
+                          "0": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "1": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "2": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "3": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          }
+                        },
+                        "description": "Weight of Bucket.",
+                        "type": "branch"
+                      },
+                      "XP": {
+                        "children": {
+                          "0": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "1": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "2": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "3": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          }
+                        },
+                        "description": "Weight of Bucket.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "Weight of Bucket.",
+                    "type": "branch"
+                  },
+                  "YP": {
+                    "children": {
+                      "XN": {
+                        "children": {
+                          "0": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "1": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "2": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "3": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          }
+                        },
+                        "description": "Weight of Bucket.",
+                        "type": "branch"
+                      },
+                      "XP": {
+                        "children": {
+                          "0": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "1": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "2": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          },
+                          "3": {
+                            "children": {
+                              "weight": {
+                                "datatype": "int16",
+                                "description": "Weight of Bucket.",
+                                "type": "sensor",
+                                "unit": "kg"
+                              }
+                            },
+                            "description": "Weight of Bucket.",
+                            "type": "branch"
+                          }
+                        },
+                        "description": "Weight of Bucket.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "Weight of Bucket.",
+                    "type": "branch"
+                  }
+                },
+                "description": "Weight of Bucket.",
+                "type": "branch"
+              }
+            },
+            "description": "All data about Load system.",
+            "type": "branch"
+          }
+        },
+        "description": "All data about Body such as Load, Box, etc.",
+        "type": "branch"
+      },
+      "Corner": {
+        "children": {
+          "YN": {
+            "children": {
+              "XN": {
+                "children": {
+                  "Brake": {
+                    "children": {
+                      "BrakeOilPressure": {
+                        "datatype": "int16",
+                        "description": "Pressure of oil pump for brake.",
+                        "type": "sensor",
+                        "unit": "mbar"
+                      },
+                      "Inner": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about brake system.",
+                    "type": "branch"
+                  },
+                  "Controller": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Controller system.",
+                    "type": "branch"
+                  },
+                  "Drive": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Drive system.",
+                    "type": "branch"
+                  },
+                  "HydrolicJac": {
+                    "children": {
+                      "Close": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      },
+                      "Open": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "Hydrolic Jac Controller.",
+                    "type": "branch"
+                  },
+                  "Motor": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Motor system.",
+                    "type": "branch"
+                  },
+                  "Wheel": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Wheel system.",
+                    "type": "branch"
+                  }
+                },
+                "description": "All data about Corner such as Motor, Wheel, etc.",
+                "type": "branch"
+              },
+              "XP": {
+                "children": {
+                  "Brake": {
+                    "children": {
+                      "BrakeOilPressure": {
+                        "datatype": "int16",
+                        "description": "Pressure of oil pump for brake.",
+                        "type": "sensor",
+                        "unit": "mbar"
+                      },
+                      "Inner": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about brake system.",
+                    "type": "branch"
+                  },
+                  "Controller": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Controller system.",
+                    "type": "branch"
+                  },
+                  "Drive": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Drive system.",
+                    "type": "branch"
+                  },
+                  "HydrolicJac": {
+                    "children": {
+                      "Close": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      },
+                      "Open": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "Hydrolic Jac Controller.",
+                    "type": "branch"
+                  },
+                  "Motor": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Motor system.",
+                    "type": "branch"
+                  },
+                  "Wheel": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Wheel system.",
+                    "type": "branch"
+                  }
+                },
+                "description": "All data about Corner such as Motor, Wheel, etc.",
+                "type": "branch"
+              }
+            },
+            "description": "All data about Corner such as Motor, Wheel, etc.",
+            "type": "branch"
+          },
+          "YP": {
+            "children": {
+              "XN": {
+                "children": {
+                  "Brake": {
+                    "children": {
+                      "BrakeOilPressure": {
+                        "datatype": "int16",
+                        "description": "Pressure of oil pump for brake.",
+                        "type": "sensor",
+                        "unit": "mbar"
+                      },
+                      "Inner": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about brake system.",
+                    "type": "branch"
+                  },
+                  "Controller": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Controller system.",
+                    "type": "branch"
+                  },
+                  "Drive": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Drive system.",
+                    "type": "branch"
+                  },
+                  "HydrolicJac": {
+                    "children": {
+                      "Close": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      },
+                      "Open": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "Hydrolic Jac Controller.",
+                    "type": "branch"
+                  },
+                  "Motor": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Motor system.",
+                    "type": "branch"
+                  },
+                  "Wheel": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Wheel system.",
+                    "type": "branch"
+                  }
+                },
+                "description": "All data about Corner such as Motor, Wheel, etc.",
+                "type": "branch"
+              },
+              "XP": {
+                "children": {
+                  "Brake": {
+                    "children": {
+                      "BrakeOilPressure": {
+                        "datatype": "int16",
+                        "description": "Pressure of oil pump for brake.",
+                        "type": "sensor",
+                        "unit": "mbar"
+                      },
+                      "Inner": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "BrakeValve": {
+                            "datatype": "int8",
+                            "description": "Set brake Valve in Strong Brake function.",
+                            "type": "actuator"
+                          },
+                          "CaliperTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of brake caliper.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "PadButton": {
+                            "datatype": "int8",
+                            "description": "Sensing the presence of brake pads.",
+                            "type": "sensor"
+                          },
+                          "ParkValve": {
+                            "datatype": "int8",
+                            "description": "Set RParkValve in Weak Brake,Overheat Brake and Parking Brake functions.",
+                            "type": "actuator"
+                          },
+                          "ReleaseValve": {
+                            "datatype": "int8",
+                            "description": "Set ReleaseValve in Anti-lock Brake function.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about brake system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about brake system.",
+                    "type": "branch"
+                  },
+                  "Controller": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "AcceCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Acceleration.",
+                            "type": "actuator"
+                          },
+                          "BrakeCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Brake.",
+                            "type": "actuator"
+                          },
+                          "ContTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cont.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "CoolTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Controller cool.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "DriveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Drive.",
+                            "type": "actuator"
+                          },
+                          "InputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of input.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "InputVoltage": {
+                            "datatype": "int16",
+                            "description": "voltage of input.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "NaviCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Navigation.",
+                            "type": "actuator"
+                          },
+                          "OutputCurrent": {
+                            "datatype": "int16",
+                            "description": "Current of output.",
+                            "type": "sensor",
+                            "unit": "A"
+                          },
+                          "OutputVoltage": {
+                            "datatype": "int16",
+                            "description": "Voltage of output.",
+                            "type": "sensor",
+                            "unit": "V"
+                          },
+                          "ParkCommand": {
+                            "datatype": "uint16",
+                            "description": "Command of Park.",
+                            "type": "actuator"
+                          },
+                          "ReveCommand": {
+                            "datatype": "int8",
+                            "description": "Command of Reverse.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Controller system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Controller system.",
+                    "type": "branch"
+                  },
+                  "Drive": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "DriveTemperature": {
+                            "datatype": "uint16",
+                            "description": "Temperature of Drive.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Drive system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Drive system.",
+                    "type": "branch"
+                  },
+                  "HydrolicJac": {
+                    "children": {
+                      "Close": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      },
+                      "Open": {
+                        "children": {
+                          "valve": {
+                            "datatype": "int8",
+                            "description": "Hydrolic Jac valve.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "Hydrolic Jac Controller.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "Hydrolic Jac Controller.",
+                    "type": "branch"
+                  },
+                  "Motor": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "Direction": {
+                            "datatype": "int32",
+                            "description": "0-1.",
+                            "type": "actuator"
+                          },
+                          "MotorRotation": {
+                            "datatype": "uint16",
+                            "description": "Rotation speed of Motor.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "MotorTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of Motor.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          },
+                          "Speed": {
+                            "datatype": "int32",
+                            "description": "0 - 255.",
+                            "type": "actuator"
+                          }
+                        },
+                        "description": "All data about Motor system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Motor system.",
+                    "type": "branch"
+                  },
+                  "Wheel": {
+                    "children": {
+                      "Inner": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      },
+                      "Outer": {
+                        "children": {
+                          "TirePressure": {
+                            "datatype": "int16",
+                            "description": "Pressure of tire.",
+                            "type": "sensor",
+                            "unit": "mbar"
+                          },
+                          "TireRotation": {
+                            "datatype": "int16",
+                            "description": "Rotation speed of tire.",
+                            "type": "sensor",
+                            "unit": "rpm"
+                          },
+                          "TireTemp": {
+                            "datatype": "int16",
+                            "description": "temperture of tire.",
+                            "type": "sensor",
+                            "unit": "celsius"
+                          }
+                        },
+                        "description": "All data about Wheel system.",
+                        "type": "branch"
+                      }
+                    },
+                    "description": "All data about Wheel system.",
+                    "type": "branch"
+                  }
+                },
+                "description": "All data about Corner such as Motor, Wheel, etc.",
+                "type": "branch"
+              }
+            },
+            "description": "All data about Corner such as Motor, Wheel, etc.",
+            "type": "branch"
+          }
+        },
+        "description": "All data about Corner such as Motor, Wheel, etc.",
+        "type": "branch"
+      },
+      "Energy": {
+        "children": {
+          "Generator": {
+            "children": {
+              "BattreyVoltage": {
+                "datatype": "uint16",
+                "description": "Voltage of generator battrey.",
+                "type": "sensor",
+                "unit": "V"
+              },
+              "DisselTankLocation": {
+                "datatype": "uint16",
+                "description": "Location of dissel tank.",
+                "type": "sensor",
+                "unit": "mm"
+              },
+              "DisselTankTemp": {
+                "datatype": "uint16",
+                "description": "temperture of dissel tank.",
+                "type": "sensor",
+                "unit": "celsius"
+              },
+              "EngineEquipment": {
+                "datatype": "int8",
+                "description": "EngineEquipment.",
+                "type": "actuator"
+              },
+              "EngineOilPressure": {
+                "datatype": "int16",
+                "description": "Pressure of Engine Oil.",
+                "type": "sensor",
+                "unit": "mbar"
+              },
+              "EngineOilTemp": {
+                "datatype": "int16",
+                "description": "temperture of Engine Oil.",
+                "type": "sensor",
+                "unit": "celsius"
+              },
+              "EngineRotation": {
+                "datatype": "uint16",
+                "description": "Rotation speed of Engine.",
+                "type": "sensor",
+                "unit": "rpm"
+              },
+              "OutputCurrent": {
+                "datatype": "uint16",
+                "description": "Current of output.",
+                "type": "sensor",
+                "unit": "A"
+              },
+              "OutputVoltage": {
+                "datatype": "uint16",
+                "description": "Voltage of output.",
+                "type": "sensor",
+                "unit": "V"
+              },
+              "StartMotor": {
+                "datatype": "int8",
+                "description": "StartMotor.",
+                "type": "actuator"
+              }
+            },
+            "description": "All data about Generator system.",
+            "type": "branch"
+          },
+          "Hydrolic": {
+            "children": {
+              "FanMotor": {
+                "datatype": "int8[]",
+                "description": "set FanMotor.",
+                "type": "actuator"
+              },
+              "HydraulicMotor": {
+                "datatype": "int8",
+                "description": "set HydraulicMotor at On Situation, Off Situation, Low Pressure functions.",
+                "type": "actuator"
+              },
+              "OilFlow": {
+                "datatype": "int16",
+                "description": "Flow quantity of oil.",
+                "type": "sensor",
+                "unit": "l/h"
+              },
+              "OilLinePressure": {
+                "datatype": "int16",
+                "description": "Pressure of oil Line pump.",
+                "type": "sensor",
+                "unit": "mbar"
+              },
+              "OilLineTemp": {
+                "datatype": "int16",
+                "description": "temperture of oil line pump.",
+                "type": "sensor",
+                "unit": "celsius"
+              },
+              "OilPumpPressure": {
+                "datatype": "int16",
+                "description": "Pressure of oil pump.",
+                "type": "sensor",
+                "unit": "mbar"
+              },
+              "OilPumpTemp": {
+                "datatype": "int16",
+                "description": "temperture of oil pump.",
+                "type": "sensor",
+                "unit": "celsius"
+              },
+              "OilTankLevel": {
+                "datatype": "int16",
+                "description": "level of oil line pump.",
+                "type": "sensor"
+              },
+              "OilTankPressure": {
+                "datatype": "int16",
+                "description": "Pressure of oil tank pump.",
+                "type": "sensor",
+                "unit": "mbar"
+              },
+              "OilTankTemp": {
+                "datatype": "int16",
+                "description": "temperture of oil tank pump.",
+                "type": "sensor",
+                "unit": "celsius"
+              }
+            },
+            "description": "All data about Hydrolic system.",
+            "type": "branch"
+          }
+        },
+        "description": "All data about Energy such as Hydrolic, Battrey, etc.",
+        "type": "branch"
+      },
+      "Frame": {
+        "children": {
+          "Chassis": {
+            "children": {
+              "ChassisAngle": {
+                "children": {
+                  "x": {
+                    "datatype": "int16",
+                    "description": "Weight of Bucket.",
+                    "type": "sensor",
+                    "unit": "degrees"
+                  },
+                  "y": {
+                    "datatype": "int16",
+                    "description": "Weight of Bucket.",
+                    "type": "sensor",
+                    "unit": "degrees"
+                  }
+                },
+                "description": "Weight of Bucket.",
+                "type": "branch"
+              }
+            },
+            "description": "All data about Chassis system.",
+            "type": "branch"
+          }
+        },
+        "description": "All data about Frame such as Chassis, Lid, etc.",
+        "type": "branch"
+      },
+      "Hardware": {
+        "children": {
+          "FrontSide": {
+            "datatype": "int16",
+            "description": "0 for XP and 1 for XN, 2 for break.",
+            "type": "sensor"
+          },
+          "RemoteController": {
+            "children": {
+              "BrakeCommand": {
+                "datatype": "int16",
+                "description": "value of brake input.",
+                "type": "sensor"
+              },
+              "ControlLoadMode": {
+                "datatype": "int16",
+                "description": "stop or start controll of load.",
+                "type": "sensor"
+              },
+              "FrontSide": {
+                "datatype": "int16",
+                "description": "driving mode, 0,1, 2.",
+                "type": "sensor"
+              },
+              "LoadMode": {
+                "datatype": "int16",
+                "description": "mode of load rais stop decrease.",
+                "type": "sensor"
+              },
+              "Speed": {
+                "datatype": "int16",
+                "dbc2vss": {
+                  "interval_ms": 100,
+                  "signal": "RC_SPEED"
+                },
+                "description": "Remote Controller speed.",
+                "max": 255,
+                "min": 0,
+                "type": "sensor"
+              },
+              "SpeedDir": {
+                "datatype": "int16",
+                "dbc2vss": {
+                  "interval_ms": 100,
+                  "signal": "RC_SPEEDDIR"
+                },
+                "description": "Remote Controller speed. Direction.",
+                "type": "sensor"
+              },
+              "StAngle": {
+                "datatype": "int16",
+                "dbc2vss": {
+                  "interval_ms": 100,
+                  "signal": "RC_STANGLE"
+                },
+                "description": "Remote Controller steering angle.",
+                "max": 255,
+                "min": 0,
+                "type": "sensor"
+              },
+              "StAngleDir": {
+                "datatype": "int16",
+                "dbc2vss": {
+                  "interval_ms": 100,
+                  "signal": "RC_STANGLEDIR"
+                },
+                "description": "Remote Controller steering Direction.",
+                "type": "sensor"
+              },
+              "isSafeMode": {
+                "datatype": "int16",
+                "description": "decrease speed to 0.5.",
+                "type": "sensor"
+              },
+              "isTurningPlace": {
+                "datatype": "int16",
+                "description": "turnig place on.",
+                "type": "sensor"
+              },
+              "mission": {
+                "datatype": "int16",
+                "dbc2vss": {
+                  "interval_ms": 100,
+                  "signal": "RC_MISSION"
+                },
+                "description": "mission id.",
+                "type": "sensor"
+              },
+              "missionDir": {
+                "datatype": "int16",
+                "description": "mission id.",
+                "type": "sensor"
+              },
+              "parkMode": {
+                "datatype": "int16",
+                "dbc2vss": {
+                  "interval_ms": 100,
+                  "signal": "RC_MODE"
+                },
+                "description": "driving mode, 0,1.",
+                "type": "sensor"
+              }
+            },
+            "description": "It obtains information about its RemoteController",
+            "type": "branch"
+          },
+          "Surround": {
+            "children": {
+              "CompassAngle": {
+                "datatype": "int16",
+                "description": "Compass Angle",
+                "type": "sensor",
+                "unit": "degrees"
+              },
+              "GPS": {
+                "children": {
+                  "YN": {
+                    "children": {
+                      "lat": {
+                        "datatype": "int32",
+                        "description": "GPS int16",
+                        "type": "sensor"
+                      },
+                      "lon": {
+                        "datatype": "int32",
+                        "description": "GPS lon",
+                        "type": "sensor"
+                      }
+                    },
+                    "description": "GPS",
+                    "type": "branch"
+                  },
+                  "YP": {
+                    "children": {
+                      "lat": {
+                        "datatype": "int32",
+                        "description": "GPS int16",
+                        "type": "sensor"
+                      },
+                      "lon": {
+                        "datatype": "int32",
+                        "description": "GPS lon",
+                        "type": "sensor"
+                      }
+                    },
+                    "description": "GPS",
+                    "type": "branch"
+                  }
+                },
+                "description": "GPS",
+                "type": "branch"
+              },
+              "Gravity": {
+                "children": {
+                  "x": {
+                    "datatype": "int16",
+                    "description": "X axis Gravity.",
+                    "max": 100,
+                    "min": 0,
+                    "type": "sensor",
+                    "unit": "percent"
+                  },
+                  "y": {
+                    "datatype": "int16",
+                    "description": "Y axis Gravity.",
+                    "max": 100,
+                    "min": 0,
+                    "type": "sensor",
+                    "unit": "percent"
+                  }
+                },
+                "description": "Gravity",
+                "type": "branch"
+              },
+              "Lidar": {
+                "children": {
+                  "YN": {
+                    "children": {
+                      "EmergencyBrake": {
+                        "datatype": "int16",
+                        "description": "lidar EmergencyBrake",
+                        "type": "sensor"
+                      },
+                      "MaxSpeed": {
+                        "datatype": "int16",
+                        "description": "lidar MaxSpeed.",
+                        "type": "sensor"
+                      }
+                    },
+                    "description": "lidar",
+                    "type": "branch"
+                  },
+                  "YP": {
+                    "children": {
+                      "EmergencyBrake": {
+                        "datatype": "int16",
+                        "description": "lidar EmergencyBrake",
+                        "type": "sensor"
+                      },
+                      "MaxSpeed": {
+                        "datatype": "int16",
+                        "description": "lidar MaxSpeed.",
+                        "type": "sensor"
+                      }
+                    },
+                    "description": "lidar",
+                    "type": "branch"
+                  }
+                },
+                "description": "lidar",
+                "type": "branch"
+              },
+              "OutHumidity": {
+                "datatype": "int16",
+                "description": "OutHumidity.",
+                "max": 100,
+                "min": 0,
+                "type": "sensor",
+                "unit": "percent"
+              },
+              "OutTemp": {
+                "datatype": "int16",
+                "description": "Out temperture.",
+                "type": "sensor",
+                "unit": "celsius"
+              }
+            },
+            "description": "It obtains information about its surroundings",
+            "type": "branch"
+          }
+        },
+        "description": "All data about Hardware such as Leader, Follower, etc.",
+        "type": "branch"
+      },
+      "Software": {
+        "children": {
+          "AutoPilot": {
+            "children": {
+              "BrakeCommand": {
+                "datatype": "int16",
+                "description": "value of brake input.",
+                "type": "sensor"
+                },
+                "ControlLoadMode": {
+                  "datatype": "int16",
+                  "description": "stop or start controll of load.",
+                  "type": "sensor"
+                },
+                "FrontSide": {
+                  "datatype": "int16",
+                  "description": "driving mode, 0,1, 2.",
+                  "type": "sensor"
+                },
+                "LoadMode": {
+                  "datatype": "int16",
+                  "description": "mode of load rais stop decrease.",
+                  "type": "sensor"
+                },
+                "Speed": {
+                  "datatype": "int16",
+                  "description": "Remote Controller speed.",
+                  "max": 255,
+                  "min": 0,
+                  "type": "sensor"
+                },
+                "SpeedDir": {
+                  "datatype": "int16",
+                  "description": "Remote Controller speed. Direction.",
+                  "type": "sensor"
+                },
+                "StAngle": {
+                  "datatype": "int16",
+                  "description": "Remote Controller steering angle.",
+                  "max": 255,
+                  "min": 0,
+                  "type": "sensor"
+                },
+                "StAngleDir": {
+                  "datatype": "int16",
+                  "description": "Remote Controller steering Direction.",
+                  "type": "sensor"
+                },
+                "isSafeMode": {
+                  "datatype": "int16",
+                  "description": "decrease speed to 0.5.",
+                  "type": "sensor"
+                },
+                "isTurningPlace": {
+                  "datatype": "int16",
+                  "description": "turnig place on.",
+                  "type": "sensor"
+                },
+                "mission": {
+                  "datatype": "int16",
+                  "description": "mission id.",
+                  "type": "sensor"
+                },
+                "missionDir": {
+                  "datatype": "int16",
+                  "description": "mission id.",
+                  "type": "sensor"
+                },
+                "parkMode": {
+                  "datatype": "int16",
+                  "description": "driving mode, 0,1.",
+                  "type": "sensor"
+                }
+            },
+            "description": "It obtains information about its AutoPilot",
+            "type": "branch"
+          },
+          "FrontSide": {
+            "datatype": "int16",
+            "description": "0 for XP and 1 for XN, 2 for break.",
+            "type": "sensor"
+          },
+          "Alert": {
+            "children": {
+              "Sitution": {
+                "datatype": "int8",
+                "description": "Sitution is off/on",
+                "type": "actuator"
+              },
+              "overHeat": {
+                "datatype": "int8",
+                "description": "OverHeat or not",
+                "type": "actuator"
+              },
+              "LowBattery": {
+                "datatype": "int8",
+                "description": "battrey is under 10v",
+                "type": "actuator"
+              },
+              "LowOilPressure": {
+                "datatype": "int8",
+                "description": "Engine oil pressure is under 5",
+                "type": "actuator"
+              },
+              "EngineRPM": {
+                "datatype": "int8",
+                "description": "Engine RPM is out of range",
+                "type": "actuator"
+              },
+              "OutputVoltage": {
+                "datatype": "int8",
+                "description": "output voltage is out of range",
+                "type": "actuator"
+              },
+              "LowTankLevel": {
+                "datatype": "int8",
+                "description": "tank level is under 10",
+                "type": "actuator"
+              }
+            },
+            "description": "It obtains information about its Alert of Vehicle",
+            "type": "branch"
+          }
+        },
+        "description": "All data about Software such as Leader, Follower, etc.",
+        "type": "branch"
+      }
+    },
+    "description": "High-level truck data.",
+    "type": "branch"
+  }
+}

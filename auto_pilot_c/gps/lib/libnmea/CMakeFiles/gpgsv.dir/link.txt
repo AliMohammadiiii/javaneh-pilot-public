@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgpgsv.a CMakeFiles/gpgsv.dir/src/parsers/gpgsv.c.o CMakeFiles/gpgsv.dir/src/parsers/parse.c.o
+/usr/bin/ranlib lib/libgpgsv.a

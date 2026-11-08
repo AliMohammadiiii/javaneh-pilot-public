@@ -1,0 +1,61 @@
+
+OilPumpPressure:
+  datatype: int16
+  type: sensor
+  unit: mbar
+  description: Pressure of oil pump.
+
+
+OilPumpTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of oil pump.
+
+OilLinePressure:
+  datatype: int16
+  type: sensor
+  unit: mbar
+  description: Pressure of oil Line pump.
+
+
+OilLineTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of oil line pump.
+
+OilTankPressure:
+  datatype: int16
+  type: sensor
+  unit: mbar
+  description:  Pressure of oil tank pump.
+
+OilTankTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of oil tank pump.
+
+OilTankLevel:
+  datatype: int16
+  type: sensor
+  description: level of oil line pump.
+
+OilFlow:
+  datatype: int16
+  type: sensor
+  unit: l/h
+  description: Flow quantity of oil.
+
+
+HydraulicMotor:
+  datatype: int8
+  type: actuator
+  description: set HydraulicMotor at On Situation, Off Situation, Low Pressure functions.
+
+FanMotor:
+  datatype: int8[]
+  arraysize: 2
+  type: actuator
+  description: set FanMotor.

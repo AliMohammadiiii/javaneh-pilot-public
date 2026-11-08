@@ -1,0 +1,29 @@
+BucketWeight:
+  type: branch
+  instances:
+    - ["YP","YN"]
+    - ["XP", "XN"]
+    - ["0", "1", "2", "3"]
+  description: Weight of Bucket.
+
+BucketWeight.weight:
+  datatype: int16
+  type: sensor
+  unit: kg
+  description: Weight of Bucket.
+
+BucketAngle:
+  type: branch
+  description: Angle of Bucket.
+
+BucketAngle.x:
+  datatype: int16
+  type: sensor
+  unit: degrees
+  description: Angle of Bucket.
+
+BucketAngle.y:
+  datatype: int16
+  type: sensor
+  unit: degrees
+  description: Angle of Bucket.

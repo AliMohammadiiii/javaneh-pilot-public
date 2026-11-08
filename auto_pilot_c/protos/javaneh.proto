@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package Tiro;
+
+service Vehicle {
+  rpc Info (Point) returns (Point) {}
+}
+message Mission{
+	optional int32 id = 1;
+	optional string name = 2;
+}
+message Point{
+	optional int32 id = 1;
+	optional int32 mission = 2;
+	optional int32 line = 3;
+	optional int32 iteration = 4;
+	optional double lat = 5;
+	optional double lon = 6;
+	optional int32 safe_mode = 7;
+	optional int32 turn_in_place = 8;
+	optional int32 speed = 9;
+	optional int32 speed_direction = 10;
+	optional int32 angle = 11;
+	optional int32 steering_angle = 12;
+	optional int32 steering_angle_direction = 13;
+	optional int32 is_last = 14;
+	optional double start_lat = 15;
+	optional double start_lon = 16;
+	optional double end_lat = 17;
+	optional double end_lon = 18;
+	optional int32 auto_pilot_mode = 19;
+	optional int32 position_fix = 20;
+	optional int32 hardware_front_side = 21;
+	optional int32 software_front_side = 22;
+}
+
+message InfoRequest{
+	string name = 1;
+}
+
+

@@ -1,0 +1,29 @@
+# Battrey:
+#     type: branch
+#     description: All data about Battrey system.
+# #include Battrey.vspec Battrey
+
+# Converter:
+#     type: branch
+#     description: All data about Converter system.
+# #include Converter.vspec Converter
+
+# Cooling:
+#     type: branch
+#     description: All data about Cooling system.
+# #include Cooling.vspec Cooling
+
+Generator:
+    type: branch
+    description: All data about Generator system.
+#include Generator.vspec Generator
+
+Hydrolic:
+    type: branch
+    description: All data about Hydrolic system.
+#include Hydrolic.vspec Hydrolic
+
+# Pneumatic:
+#     type: branch
+#     description: All data about Pneumatic system.
+# #include Pneumatic.vspec Pneumatic

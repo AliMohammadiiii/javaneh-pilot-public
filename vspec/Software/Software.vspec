@@ -1,0 +1,9 @@
+AutoPilot:
+    type: branch
+    description: It obtains information about its AutoPilot
+#include AutoPilot.vspec AutoPilot
+
+FrontSide:
+    type: sensor
+    datatype: int16
+    description: 0 for XP and 1 for XN, 2 for break.

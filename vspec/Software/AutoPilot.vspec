@@ -1,0 +1,43 @@
+Speed:
+    datatype: int16
+    type: sensor
+    min: 0
+    max: 255
+    description: Remote Controller speed.
+
+SpeedDir:
+    datatype: int16
+    type: sensor
+    description: Remote Controller speed. Direction.
+
+StAngle:
+    datatype: int16
+    type: sensor
+    min: 0
+    max: 255
+    description: Remote Controller steering angle.
+
+StAngleDir:
+    datatype: int16
+    type: sensor
+    description: Remote Controller steering Direction.
+
+
+mission:
+    datatype: int16
+    type: sensor
+    description: mission id.
+
+
+isSafeMode:
+    datatype: int16
+    type: sensor
+    description: decrease speed to 0.5.
+
+
+isTurningPlace:
+    datatype: int16
+    type: sensor
+    description: turnig place on.
+
+

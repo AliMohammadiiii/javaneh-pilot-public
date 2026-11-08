@@ -1,0 +1,21 @@
+MotorRotation:
+  datatype: uint16
+  type: sensor
+  unit: rpm
+  description: Rotation speed of Motor.
+
+MotorTemp:
+  datatype: int16
+  type: sensor
+  unit: celsius
+  description: temperture of Motor.
+
+Speed:
+  datatype: int32
+  type: actuator
+  description: 0 - 255.
+
+Direction:
+  datatype: int32
+  type: actuator
+  description: 0-1.

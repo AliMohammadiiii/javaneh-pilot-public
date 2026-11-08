@@ -1,0 +1,92 @@
+Speed:
+    datatype: int16
+    type: sensor
+    min: 0
+    max: 255
+    description: Remote Controller speed.
+    dbc2vss:
+        signal: RC_SPEED
+        interval_ms: 100
+
+SpeedDir:
+    datatype: int16
+    type: sensor
+    description: Remote Controller speed. Direction.
+    dbc2vss:
+        signal: RC_SPEEDDIR
+        interval_ms: 100
+
+StAngle:
+    datatype: int16
+    type: sensor
+    min: 0
+    max: 255
+    description: Remote Controller steering angle.
+    dbc2vss:
+        signal: RC_STANGLE
+        interval_ms: 100
+
+StAngleDir:
+    datatype: int16
+    type: sensor
+    description: Remote Controller steering Direction.
+    dbc2vss:
+        signal: RC_STANGLEDIR
+        interval_ms: 100
+
+parkMode:
+    datatype: int16
+    type: sensor
+    description: driving mode, 0,1.
+    dbc2vss:
+        signal: RC_MODE
+        interval_ms: 100
+
+FrontSide:
+    datatype: int16
+    type: sensor
+    description: driving mode, 0,1, 2.
+
+
+mission:
+    datatype: int16
+    type: sensor
+    description: mission id.
+    dbc2vss:
+        signal: RC_MISSION
+        interval_ms: 100
+
+missionDir:
+    datatype: int16
+    type: sensor
+    description: mission id.
+ 
+
+isSafeMode:
+    datatype: int16
+    type: sensor
+    description: decrease speed to 0.5.
+ 
+
+isTurningPlace:
+    datatype: int16
+    type: sensor
+    description: turnig place on.
+
+
+LoadMode:
+    datatype: int16
+    type: sensor
+    description: mode of load rais stop decrease.
+
+
+ControlLoadMode:
+    datatype: int16
+    type: sensor
+    description: stop or start controll of load.
+
+
+BrakeCommand:
+    datatype: int16
+    type: sensor
+    description: value of brake input.

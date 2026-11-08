@@ -1,0 +1,15 @@
+ChassisAngle:
+  type: branch
+  description: Weight of Bucket.
+
+ChassisAngle.y:
+  datatype: int16
+  type: sensor
+  unit: degrees
+  description: Weight of Bucket.
+
+ChassisAngle.x:
+  datatype: int16
+  type: sensor
+  unit: degrees
+  description: Weight of Bucket.

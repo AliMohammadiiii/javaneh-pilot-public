@@ -1,0 +1,27 @@
+{
+    "canIds":
+    [
+        3,5
+    ],
+    "actuator": {
+        "path":
+        [
+            "Vehicle.Hardware.RemoteController.Speed",
+            "Vehicle.Hardware.RemoteController.StAngle"
+        ],
+        "Vehicle.Hardware.RemoteController.Speed": {
+            "idCan": 3,
+            "byte": 2,
+            "size": 8,
+            "bitStart": 0,
+            "type": "int8"
+        },
+        "Vehicle.Hardware.RemoteController.StAngle": {
+            "idCan": 5,
+            "byte": 0,
+            "size": 8,
+            "bitStart": 0,
+            "type": "int8"
+        }
+    }
+  }

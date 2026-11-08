@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+ The MIT License (MIT)
+
+ This file is part of the JoyStick Project (https://github.com/bobboteck/JoyStick).
+ Copyright (c) 2015 Roberto D'Amico (Bobboteck).
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+-->
+<html>
+	<head>
+		<title>Joy</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Example page of use pure Javascript JoyStick">
+		<meta name="author" content="Roberto D'Amico">
+		<link rel="shortcut icon" type="image/png" href="http://bobboteck.github.io/img/roberto-damico-bobboteck.png">
+		<style>
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+}
+.row
+{
+	display: inline-flex;
+	clear: both;
+}
+.columnLateral
+{
+  float: left;
+  width: 15%;
+  min-width: 300px;
+}
+.columnCetral
+{
+  float: left;
+  width: 70%;
+  min-width: 300px;
+}
+#joy2Div
+{
+	width:200px;
+	height:200px;
+	margin:50px
+}
+#joystick
+{
+	border: 1px solid #FF0000;
+}
+#joystick2
+{
+	border: 1px solid #0000FF;
+}
+		</style>
+		<script src="/static/joy.min.js"></script>
+	</head>
+	<body>
+		<!-- Example of two JoyStick integrated in the page structure -->
+		<div class="row">
+			<div class="columnLateral">
+				<div id="joy1Div" style="width:200px;height:200px;margin:50px"></div>
+			</div>
+		</div>
+		<script src="/static/jquery.min.js">
+		</script>
+		<script type="text/javascript">
+			var timeout;
+			var interval;
+			var x;
+			var y;
+			var data=false;
+			var Joy1 = new JoyStick('joy1Div')
+			function send(data){
+				if(data){
+					$.ajax({
+						  type: "POST",
+						  url: "/drive",
+						  data: JSON.stringify(data),
+						  contentType: "application/json",
+						  dataType: 'json' 
+					});
+				}
+			}
+			setInterval(function(){ 
+				send(data)
+			}, 500);
+			setInterval(function(){ 
+				var _x=Joy1.GetX(); 
+				var _y=Joy1.GetY(); 
+				if(x != _x || y != _y){
+					if(_x > 100)_x=100;
+					if(_y > 100)_y=100;
+					console.log('x', x, _x)
+					console.log('y', y, _y)
+					x = _x;
+					y = _y;
+					data = {'x' : _x, 'y' : _y}
+					send(data)
+				}
+			}, 50);
+			/*
+			var Joy1 = new JoyStick('joy1Div', {}, function(stickData) {
+					
+					interval = Date.now()
+					clearTimeout(timeout);
+					timeout = setTimeout(function(){
+					console.log(stickData)
+					
+					$.ajax({
+							  type: "POST",
+							  url: "/drive",
+							  data: JSON.stringify(stickData),
+							  contentType: "application/json",
+							  dataType: 'json' 
+					});
+					}, 100)
+					//socket.send(JSON.stringify(stickData));
+			});
+		       */
+
+		</script>
+	</body>
+</html>

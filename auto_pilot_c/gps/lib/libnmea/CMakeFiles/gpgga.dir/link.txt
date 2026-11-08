@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgpgga.a CMakeFiles/gpgga.dir/src/parsers/gpgga.c.o CMakeFiles/gpgga.dir/src/parsers/parse.c.o
+/usr/bin/ranlib lib/libgpgga.a

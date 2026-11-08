@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/parse_stdin.dir/examples/parse_stdin.c.o -o bin/parse_stdin  lib/libnmea.a -ldl 

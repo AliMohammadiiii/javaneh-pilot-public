@@ -1,0 +1,301 @@
+{
+        "sensor": {
+            "canIds":
+           [
+             17,8, 273, 272
+            ],
+            "path":
+               [
+                "Vehicle.Hardware.RemoteController.Speed",
+                "Vehicle.Hardware.RemoteController.mission",
+                "Vehicle.Hardware.RemoteController.StAngle",
+                "Vehicle.Hardware.RemoteController.SpeedDir",
+                "Vehicle.Hardware.RemoteController.missionDir",
+                "Vehicle.Hardware.RemoteController.StAngleDir",
+                "Vehicle.Hardware.RemoteController.isSafeMode",
+                "Vehicle.Hardware.RemoteController.isTurningPlace",
+                "Vehicle.Hardware.RemoteController.parkMode",
+                "Vehicle.Hardware.RemoteController.FrontSide",
+                "Vehicle.Hardware.FrontSide",
+                "Vehicle.Hardware.RemoteController.ControlLoadMode",
+                "Vehicle.Hardware.RemoteController.BrakeCommand",
+                "Vehicle.Hardware.RemoteController.LoadMode",
+                "Vehicle.Hardware.Surround.CompassAngle",
+                "Vehicle.Hardware.Surround.GPS.YP.lat",
+                "Vehicle.Hardware.Surround.GPS.YP.lon",
+                "Vehicle.Hardware.Surround.GPS.YN.lat",
+                "Vehicle.Hardware.Surround.GPS.YN.lon"
+           ],
+            "Vehicle.Hardware.RemoteController.Speed": {
+                    "idCan":  17,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Hardware.RemoteController.mission": {
+                    "idCan":  17,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Hardware.RemoteController.BrakeCommand": {
+                "idCan":  17,
+                "bytestart":  6,
+                "size":  8,
+                "bitStart":  7,
+                "type":  "int8"
+                },
+            "Vehicle.Hardware.RemoteController.StAngle": {
+                    "idCan":  17,
+                    "bytestart":  3,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Hardware.RemoteController.SpeedDir": {
+                    "idCan":  17,
+                    "bytestart":  4,
+                    "size":  1,
+                    "bitStart":  0,
+                    "type":  "int8"
+            },
+            "Vehicle.Hardware.RemoteController.missionDir": {
+                    "idCan":  17,
+                    "bytestart":  4,
+                    "size":  1,
+                    "bitStart":  1,
+                    "type":  "boolean"
+            },
+            "Vehicle.Hardware.RemoteController.StAngleDir": {
+                    "idCan":  17,
+                    "bytestart":  4,
+                    "size":  1,
+                    "bitStart":  3,
+                    "type":  "boolean"
+            },
+            "Vehicle.Hardware.RemoteController.isSafeMode": {
+                    "idCan":  17,
+                    "bytestart":  5,
+                    "size":  1,
+                    "bitStart":  0,
+                    "type":  "boolean"
+            },
+            "Vehicle.Hardware.RemoteController.isTurningPlace": {
+                    "idCan":  17,
+                    "bytestart":  5,
+                    "size":  1,
+                    "bitStart":  1,
+                    "type":  "boolean"
+            },
+            "Vehicle.Hardware.RemoteController.parkMode": {
+                    "idCan":  17,
+                    "bytestart":  5,
+                    "size":  1,
+                    "bitStart":  2,
+                    "type":  "boolean"
+            },
+            "Vehicle.Hardware.RemoteController.FrontSide": {
+                    "idCan":  17,
+                    "bytestart":  5,
+                    "size":  2,
+                    "bitStart":  6,
+                    "type":  "int8"
+            },
+            "Vehicle.Hardware.FrontSide": {
+                "idCan":  17,
+                "bytestart":  5,
+                "size":  2,
+                "bitStart":  6,
+                "type":  "int8"
+        },
+            "Vehicle.Hardware.RemoteController.ControlLoadMode": {
+                    "idCan":  17,
+                    "bytestart":  5,
+                    "size":  2,
+                    "bitStart":  4,
+                    "type":  "int8"
+            },
+            "Vehicle.Hardware.RemoteController.LoadMode": {
+                    "idCan":  17,
+                    "bytestart":  5,
+                    "size":  2,
+                    "bitStart":  6,
+                    "type":  "int8"
+            },
+            "Vehicle.Hardware.Surround.CompassAngle": {
+                    "idCan":  8,
+                    "bytestart":  0,
+                    "size":  16,
+                    "bitStart":  7,
+                    "type":  "int16"
+            },
+            "Vehicle.Hardware.Surround.GPS.YP.lat": {
+                    "idCan":  273,
+                    "bytestart":  0,
+                    "size":  32,
+                    "bitStart":  7,
+                    "type":  "int32"
+            },
+            "Vehicle.Hardware.Surround.GPS.YP.lon": {
+                    "idCan":  273,
+                    "bytestart":  4,
+                    "size":  32,
+                    "bitStart":  7,
+                    "type":  "int32"
+            },
+            "Vehicle.Hardware.Surround.GPS.YN.lat": {
+                    "idCan":  272,
+                    "bytestart":  0,
+                    "size":  32,
+                    "bitStart":  7,
+                    "type":  "int32"
+            },
+            "Vehicle.Hardware.Surround.GPS.YN.lon": {
+                    "idCan":  272,
+                    "bytestart":  4,
+                    "size":  32,
+                    "bitStart":  7,
+                    "type":  "int32"
+            }
+        },
+        "actuator": {
+            "canIds":
+           [
+             80,81,82,83,84,85,86,87
+            ],
+            "path":
+               [
+                "Vehicle.Corner.YP.XP.Motor.Outer.Speed",
+                "Vehicle.Corner.YP.XP.Motor.Outer.Direction",
+                "Vehicle.Corner.YP.XP.Motor.Inner.Speed",
+                "Vehicle.Corner.YP.XP.Motor.Inner.Direction",
+                "Vehicle.Corner.YN.XP.Motor.Outer.Speed",
+                "Vehicle.Corner.YN.XP.Motor.Outer.Direction",
+                "Vehicle.Corner.YN.XP.Motor.Inner.Speed",
+                "Vehicle.Corner.YN.XP.Motor.Inner.Direction",
+                "Vehicle.Corner.YP.XN.Motor.Outer.Speed",
+                "Vehicle.Corner.YP.XN.Motor.Outer.Direction",
+                "Vehicle.Corner.YP.XN.Motor.Inner.Speed",
+                "Vehicle.Corner.YP.XN.Motor.Inner.Direction",
+                "Vehicle.Corner.YN.XN.Motor.Outer.Speed",
+                "Vehicle.Corner.YN.XN.Motor.Outer.Direction",
+                "Vehicle.Corner.YN.XN.Motor.Inner.Speed",
+                "Vehicle.Corner.YN.XN.Motor.Inner.Direction" 
+           ],
+            "Vehicle.Corner.YP.XP.Motor.Outer.Speed": {
+                    "idCan":  80,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YP.XP.Motor.Outer.Direction": {
+                    "idCan":  80,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YP.XP.Motor.Inner.Speed": {
+                    "idCan":  81,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YP.XP.Motor.Inner.Direction": {
+                    "idCan":  81,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XP.Motor.Outer.Speed": {
+                    "idCan":  82,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XP.Motor.Outer.Direction": {
+                    "idCan":  82,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XP.Motor.Inner.Speed": {
+                    "idCan":  83,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XP.Motor.Inner.Direction": {
+                    "idCan":  83,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YP.XN.Motor.Outer.Speed": {
+                    "idCan":  84,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YP.XN.Motor.Outer.Direction": {
+                    "idCan":  84,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YP.XN.Motor.Inner.Speed": {
+                    "idCan":  85,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YP.XN.Motor.Inner.Direction": {
+                    "idCan":  85,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XN.Motor.Outer.Speed": {
+                    "idCan":  86,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XN.Motor.Outer.Direction": {
+                    "idCan":  86,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XN.Motor.Inner.Speed": {
+                    "idCan":  87,
+                    "bytestart":  0,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            },
+            "Vehicle.Corner.YN.XN.Motor.Inner.Direction": {
+                    "idCan":  87,
+                    "bytestart":  1,
+                    "size":  8,
+                    "bitStart":  7,
+                    "type":  "int8"
+            }
+        }
+    }
+    

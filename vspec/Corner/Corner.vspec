@@ -1,0 +1,61 @@
+Brake:
+    type: branch
+    instances:
+    - ['Outer', 'Inner']
+    description: All data about brake system.
+#include Brake.vspec Brake
+
+Controller:
+    type: branch
+    instances:
+    - ['Outer', 'Inner']
+    description: All data about Controller system.
+#include Controller.vspec Controller
+
+Drive:
+    type: branch
+    instances:
+    - ['Outer', 'Inner']
+    description: All data about Drive system.
+#include Drive.vspec Drive
+
+# Elevation:
+#     type: branch
+#     description: All data about Elevation system.
+# #include Elevation.vspec Elevation
+
+Motor:
+    type: branch
+    instances:
+    - ['Outer', 'Inner']
+    description: All data about Motor system.
+#include Motor.vspec Motor
+
+# Navigation:
+#     type: branch
+#     description: All data about Navigation system.
+# #include Navigation.vspec Navigation
+
+# Suspention:
+#     type: branch
+#     description: All data about Suspention system.
+#  #include Suspention.vspec Suspention
+
+
+Wheel:
+    type: branch
+    instances:
+    - ['Outer', 'Inner']
+    description: All data about Wheel system.
+#include Wheel.vspec Wheel
+
+HydrolicJac:
+    type: branch
+    instances:
+    - ['Open', 'Close']
+    description: Hydrolic Jac Controller.
+
+HydrolicJac.valve:
+    type: actuator
+    datatype: int8
+    description: Hydrolic Jac valve.

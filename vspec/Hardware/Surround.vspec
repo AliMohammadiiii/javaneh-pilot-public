@@ -1,0 +1,74 @@
+Gravity:
+    type: branch
+    description: Gravity
+
+
+Gravity.x:
+    datatype: int16
+    type: sensor
+    unit: percent
+    min: 0
+    max: 100
+    description: X axis Gravity.
+
+Gravity.y:
+    datatype: int16
+    type: sensor
+    unit: percent
+    min: 0
+    max: 100
+    description: Y axis Gravity.
+
+OutTemp:
+    datatype: int16
+    type: sensor
+    unit: celsius
+    description: Out temperture.
+    
+OutHumidity:
+    datatype: int16
+    type: sensor
+    unit: percent
+    min: 0
+    max: 100
+    description: OutHumidity.
+
+CompassAngle:
+    datatype: int16
+    type: sensor
+    unit: degrees
+    description: Compass Angle
+
+GPS:
+    type: branch
+    instances:
+    - ["YP","YN"]
+    description: GPS
+
+GPS.lat:
+    datatype: int32
+    type: sensor
+    description: GPS int16
+
+GPS.lon:
+    datatype: int32
+    type: sensor
+    description: GPS lon
+
+
+Lidar:
+    type: branch
+    instances:
+    - ["YP","YN"]
+    description: lidar
+
+Lidar.MaxSpeed:
+    datatype: int16
+    type: sensor
+    description: lidar MaxSpeed.
+
+Lidar.EmergencyBrake:
+    datatype: int16
+    type: sensor
+    description: lidar EmergencyBrake
+    

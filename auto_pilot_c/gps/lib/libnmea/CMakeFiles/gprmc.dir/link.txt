@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgprmc.a CMakeFiles/gprmc.dir/src/parsers/gprmc.c.o CMakeFiles/gprmc.dir/src/parsers/parse.c.o
+/usr/bin/ranlib lib/libgprmc.a

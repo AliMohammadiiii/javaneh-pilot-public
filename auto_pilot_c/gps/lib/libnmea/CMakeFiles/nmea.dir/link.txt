@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libnmea.a CMakeFiles/nmea.dir/src/nmea/nmea.c.o CMakeFiles/nmea.dir/src/nmea/parser_static.c.o CMakeFiles/nmea.dir/src/parsers/parse.c.o CMakeFiles/nmea.dir/src/parsers/gpgga.c.o CMakeFiles/nmea.dir/src/parsers/gpgll.c.o CMakeFiles/nmea.dir/src/parsers/gpgsa.c.o CMakeFiles/nmea.dir/src/parsers/gpgsv.c.o CMakeFiles/nmea.dir/src/parsers/gprmc.c.o CMakeFiles/nmea.dir/src/parsers/gptxt.c.o CMakeFiles/nmea.dir/src/parsers/gpvtg.c.o
+/usr/bin/ranlib lib/libnmea.a

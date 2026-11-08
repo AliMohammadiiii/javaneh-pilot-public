@@ -1,0 +1,19 @@
+# Bumper:
+#     type: branch
+#     description: All data about Bumper system.
+# #include Bumper.vspec Bumper
+
+Chassis:
+    type: branch
+    description: All data about Chassis system.
+#include Chassis.vspec Chassis
+
+# Lid:
+#     type: branch
+#     description: All data about Lid system.
+# #include Lid.vspec Lid
+
+# Pack:
+#     type: branch
+#     description: All data about Pack system.
+# #include Pack.vspec Pack
